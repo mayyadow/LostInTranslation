@@ -45,7 +45,6 @@ public class CountryCodeConverter {
                 String country = parts[1].trim();
                 countryCodeToCountry.put(code, country);
                 countryToCountryCode.put(country, code);
-                // TODO Task B: use parts to populate the instance variables
             }
         }
         catch (IOException | URISyntaxException ex) {
@@ -60,7 +59,6 @@ public class CountryCodeConverter {
      * @return the name of the country corresponding to the code
      */
     public String fromCountryCode(String code) {
-        // TODO Task B: update this code to use an instance variable to return the correct value
         return countryCodeToCountry.get(code);
     }
 
