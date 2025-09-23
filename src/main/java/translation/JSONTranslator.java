@@ -80,7 +80,7 @@ public class JSONTranslator implements Translator {
 
     @Override
     public List<String> getLanguageCodes() {
-        return this.languageCodes;
+        return new ArrayList<>(languageCodes);
     }
 
     @Override
