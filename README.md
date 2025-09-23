@@ -19,7 +19,7 @@ To receive credit for today's team activity, your team must:
   - no marks if the program is clearly incomplete
 ---
 
-- [ ] **To get started, have one member of your team make a fork of this
+- [x] **To get started, have one member of your team make a fork of this
 repo on GitHub and add each other team member as a collaborator. This
 will allow you to make and review pull requests from each other
 during the lab.**
@@ -174,7 +174,7 @@ the program works purely in terms of country codes and language codes as demonst
 contain. Notice that each of the `.txt` files contains a header row at the top,
 which is ignored when reading the data.
 
-- [ ] **As a team, complete the `TODO Task 1` in `CanadaTranslator` to get familiar with
+- [x] **As a team, complete the `TODO Task 1` in `CanadaTranslator` to get familiar with
   the data we are working with in this activity.**
 
 Once your team completes this task, you should be able to run the GUI and translate
@@ -186,7 +186,7 @@ to the two new languages that were implemented!
 These three sets of TODO tasks relate to the actual translation, converting
 language codes, and converting country codes.
 
-- [ ] **Divide up these three tasks across your team and complete them. We recommend working in pairs for these tasks, with each pair making
+- [x] **Divide up these three tasks across your team and complete them. We recommend working in pairs for these tasks, with each pair making
   a PR, but you can also subdivide these tasks.**
 
 > Once these are implemented, the provided tests should all pass.
