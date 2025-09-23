@@ -14,6 +14,7 @@ import java.util.List;
 public class CanadaTranslator implements Translator {
 
     public static final String CANADA = "can";
+
     /**
      * Return the language code for all languages whose translations are
      * available for translating "can".
@@ -56,6 +57,12 @@ public class CanadaTranslator implements Translator {
         }
         else if ("zh".equals(languageCode)) {
             return "加拿大";
+        }
+        else if (languageCode.equals("es")){
+            return "Canadà";
+        }
+        else if(languageCode.equals("fr")){
+            return "Canada";
         }
         else {
             return null;
